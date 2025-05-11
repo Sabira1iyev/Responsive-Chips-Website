@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon (1).png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chips Website</title>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">CHIPS</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#favorites" class="nav__link">Favorites</a>
+                    </li>
+
+                    <li>
+                        <a href="#care" class="nav__link">Care</a>
+                    </li>
+
+                    <li>
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+                <div class="nav__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="https://x.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-apps-2-line"></i>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">SNACK <br> WITH NO <br> LIMITS </h1>
+
+                    <p class="home__description">
+                        When you are hungry and you dont have time to cook, snacks are the perfect solution, always
+                        prepare for midday hunger.
+                    </p>
+                    <img src="img/meat.png" alt="image" class="home__meat">
+
+                    <div class="home__buttons">
+                        <a href="#" class="button">Snack now</a>
+                        <a href="#" class="button button__ghost">Buy now</a>
+                    </div>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__circle">
+                        <div class="home__subcircle"></div>
+                    </div>
+
+                    <img src="img/home-chips.png" alt="image" class="home__img">
+
+                    <img src="img/chips-1.png" alt="image" class="home__chips-1">
+                    <img src="img/chips-2.png" alt="image" class="home__chips-2">
+                    <img src="img/chips-3.png" alt="image" class="home__chips-3">
+                    <img src="img/tomato-1.png" alt="image" class="home__tomato-1">
+                    <img src="img/tomato-2.png" alt="image" class="home__tomato-2">
+                    <img src="img/leaf-3.png" alt="image" class="home__leaf">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="favorite section" id="favorites">
+            <div class="favorites__container container grid">
+                <div class="favorites__data">
+                    <h2 class="favorites__data">DISCOVER <br>FAVORITE FLAVORS</h2>
+
+                    <p class="favorites__description">
+                        Try some exotic flavors or delicious toppings.
+                        We have collected some delicious snack recipes
+                        from around the world for you.
+                    </p>
+                    <img src="img/cheese.png" alt="image" class="favorites__cheese-1">
+                    <img src="img/cheese.png" alt="image" class="favorites__cheese-2">
+                </div>
+                <div class="favorites__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="favorites__article swiper-slide">
+                            <img src="img/favorite-chips-1.png" alt="image" class="favorites__img">
+
+                            <img src="img/leaf-1.png" alt="image" class="favorites__leaf-1">
+                            <img src="img/leaf-2.png" alt="image" class="favorites__leaf-2">
+                        </article>
+
+                        <article class="favorites__article swiper-slide">
+                            <img src="img/favorite-chips-2.png" alt="image" class="favorites__img">
+
+                            <img src="img/leaf-1.png" alt="image" class="favorites__leaf-1">
+                            <img src="img/leaf-2.png" alt="image" class="favorites__leaf-2">
+                        </article>
+
+                        <article class="favorites__article swiper-slide">
+                            <img src="img/favorite-chips-3.png" alt="image" class="favorites__img">
+
+                            <img src="img/leaf-1.png" alt="image" class="favorites__leaf-1">
+                            <img src="img/leaf-2.png" alt="image" class="favorites__leaf-2">
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="care section" id="care">
+            <h2 class="section__title">ENJOY AND TAKE <br>CARE OF YOUR HEALTH</h2>
+
+            <div class="care__container container grid">
+                <ul class="care__list">
+                    <li class="care__item">
+                        <i class="ri-plant-line"></i>
+                        <p>
+                            The potatoes that are made into snacks are grown and harvested and are 100% organic.
+                        </p>
+                    </li>
+
+                    <li class="care__item">
+                        <i class="ri-fire-line"></i>
+                        <p>
+                            We fry the fries with vegetable and natural oil for good care.
+                        </p>
+                    </li>
+
+                    <li class="care__item">
+                        <i class="ri-heart-pulse-line"></i>
+                        <p>
+                            The potatoes are not processed,once cleaned they are cooked withoout preservatives.
+                        </p>
+                    </li>
+
+                    <li class="care__item">
+                        <i class="ri-hand-heart-line"></i>
+                        <p>
+                            They contain fewer calories and less fat for good health.
+                        </p>
+                    </li>
+                </ul>
+                <img src="img/care-chips.png" alt="images" class="care__img">
+            </div>
+        </section>
+
+
+
+        <section class="banner">
+            <div class="banner__container">
+                <ul class="banner__list">
+                    <li class="banner__item">
+                        <i class="ri-leaf-line"></i>
+                        <span>GOOD FOR NATURE</span>
+                    </li>
+
+                    <li class="banner__item">
+                        <i class="ri-heart-pulse-line"></i>
+                        <span>LOW CALORIES</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+
+        <section class="products section" id="products">
+            <h2 class="section__title">BEST SELLING <br>PRODUCT</h2>
+
+            <div class="products__container container">
+                <div class="products__content grid">
+
+                    <article class="products__card">
+                        <img src="img/product-chips-1.png" alt="image" class="products__img">
+
+                        <span class="products__tubtitle">Crab</span>
+                        <h2 class="products__title">Chips</h2>
+
+                        <span class="products__price">$8</span>
+
+                        <button class="products__button">
+                            <i class="ri-shopping-bag-3-line"></i>
+                        </button>
+                    </article>
+
+
+                    <article class="products__card">
+                        <img src="img/product-chips-2.png" alt="image" class="products__img">
+
+                        <span class="products__tubtitle">Cheese</span>
+                        <h2 class="products__title">Chips</h2>
+
+                        <span class="products__price">$5</span>
+
+                        <button class="products__button">
+                            <i class="ri-shopping-bag-3-line"></i>
+                        </button>
+                    </article>
+
+
+                    <article class="products__card">
+                        <img src="img/product-chips-3.png" alt="image" class="products__img">
+
+                        <span class="products__tubtitle">BBQ</span>
+                        <h2 class="products__title">Chips</h2>
+
+                        <span class="products__price">$6</span>
+
+                        <button class="products__button">
+                            <i class="ri-shopping-bag-3-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="img/product-chips-4.png" alt="image" class="products__img">
+
+                        <span class="products__tubtitle">Hot</span>
+                        <h2 class="products__title">Chips</h2>
+
+                        <span class="products__price">$5</span>
+
+                        <button class="products__button">
+                            <i class="ri-shopping-bag-3-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="img/product-chips-5.png" alt="image" class="products__img">
+
+                        <span class="products__tubtitle">Mix</span>
+                        <h2 class="products__title">Chips</h2>
+
+                        <span class="products__price">$10</span>
+
+                        <button class="products__button">
+                            <i class="ri-shopping-bag-3-line"></i>
+                        </button>
+                    </article>
+                </div>
+
+                <img src="img/crab.png" alt="image" class="products__crab">
+                <img src="img/hamburger.png" alt="image" class="products__hamburger">
+                <img src="img/cheese.png" alt="image" class="products__cheese">
+
+            </div>
+        </section>
+
+
+
+
+        <section class="contact section" id="contact">
+            <div class="contact__container container">
+                <h2 class="section__title">CONTACT US <br> EAT CHIPS</h2>
+                <div class="contact__content grid">
+                    <div class="contact__data grid">
+
+                        <div>
+                            <h3 class="contact__title">Write to us</h3>
+
+                            <div class="contact__social">
+                                <a href="https://web.whatsapp.com/" target="_blank">
+                                    <i class="ri-whatsapp-fill"></i>
+                                </a>
+
+                                <a href="https://www.messenger.com/" target="_blank">
+                                    <i class="ri-messenger-fill"></i>
+                                </a>
+
+                                <a href="mailto:s.aliyev2005@gmail.com" target="_blank">
+                                    <i class="ri-mail-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="contact__title">Call us</h3>
+
+                            <address class="contact__info">
+                                +995-28-90-32
+                            </address>
+                        </div>
+
+                        <div>
+                            <h3 class="contact__title">Find us here</h3>
+
+                            <address class="contact__info">
+                                Georgia, Tbilisi, Avlabari, Mtavarangelozi St.
+                            </address>
+                        </div>
+                    </div>
+
+                    <img src="img/contact-man.png" alt="image" class="contact__img">
+                </div>
+                <img src="img/shrimp.png" alt="image" class="contact__shrimp">
+                <img src="img/crab.png" alt="image" class="contact__crab">
+                <img src="img/meat.png" alt="image" class="contact__meat">
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <a href="#" class="footer__logo">CHIPS</a>
+
+            <div class="footer__content grid">
+                <a href="" class="footer__link">Terms & Agreements</a>
+                <a href="" class="footer__link">Privacy Policy</a>
+
+                <span class="footer__copy">
+                     All Right Reserved By PhoenixWeb
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+
+
+
+
+
+
+    <script src="js/scrollreveal.min.js
+    "></script>
+
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
